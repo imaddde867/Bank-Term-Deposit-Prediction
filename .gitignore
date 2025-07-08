@@ -1,0 +1,37 @@
+# Python
+*.pyc
+*.pyo
+__pycache__
+.Python
+env/
+venv/
+develop-eggs/
+dist/
+build/
+*.egg-info/
+.tox/
+.coverage
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# OS
+.DS_Store
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+temp/
