@@ -35,13 +35,13 @@
 ## 2. Exploratory Data Analysis
 
 **Numerical Features:**
-![Numerical Distributions](screenshots/numerical_data_analysis.png)
+![Numerical Distributions](https://raw.githubusercontent.com/imaddde867/Bank-Term-Deposit-Prediction/main/screenshots/numerical_data_analysis.png)
 
 **Categorical Features:**
-![Numerical Distributions](screenshots/categorical_data.png)
+![Numerical Distributions](https://raw.githubusercontent.com/imaddde867/Bank-Term-Deposit-Prediction/main/screenshots/categorical_data.png)
 
 **Correlation Matrix:**
-![Correlation Matrix](screenshots/correlations.png)
+![Correlation Matrix](https://raw.githubusercontent.com/imaddde867/Bank-Term-Deposit-Prediction/main/screenshots/correlations.png)
 
 **Feature Selection:**
 - Dropped highly correlated/redundant features (e.g., `euribor3m`, `emp.var.rate`, `previous`, `pdays`...etc)
@@ -82,7 +82,7 @@ model = Sequential([
 - 150 epochs, batch size 64, validation split
 
 **Training Curves:**
-![Training Curves](screenshots/initial_classification_results.png)
+![Training Curves](https://raw.githubusercontent.com/imaddde867/Bank-Term-Deposit-Prediction/main/screenshots/initial_classification_results.png)
 
 ---
 
@@ -176,7 +176,7 @@ weighted avg       0.88      0.90      0.87      4118
 
 
 **ROC Curve:**
-![ROC Curve](screenshots/final_ROC_curve.png)
+![ROC Curve](https://raw.githubusercontent.com/imaddde867/Bank-Term-Deposit-Prediction/main/screenshots/final_ROC_curve.png)
 
 ---
 
@@ -195,8 +195,3 @@ weighted avg       0.88      0.90      0.87      4118
 ## Conclusion
 
 This project demonstrates the power of ANNs for bank marketing prediction, with a rigorous workflow from cleaning to hyperparameter tuning. The approach is generalizable to other imbalanced, high-dimensional business problems.
-
----
-
-**Citation:**  
-Moro et al., 2014. [A Data-Driven Approach to Predict Bank Telemarketing Success](http://dx.doi.org/10.1016/j.dss.2014.03.001).
