@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <b>Portfolio Highlight:</b> End-to-end ML pipeline for predicting term deposit subscriptions using advanced feature engineering and a tuned Artificial Neural Network (ANN).
+  <b>Highlight:</b> End-to-end ML pipeline for predicting term deposit subscriptions using advanced feature engineering and a tuned Artificial Neural Network (ANN).
 </p>
 
 This project demonstrates how to build a robust, interpretable, and business-relevant machine learning solution for bank marketing. The workflow—from data cleaning to ANN optimization—mirrors real-world data science best practices and is designed for portfolio presentation.
@@ -198,8 +198,3 @@ This project showcases a full ML pipeline for a real-world business problem, wit
 - Try ensemble models
 - Further feature engineering
 - Adjust classification threshold for business needs
-
-
-## License
-
-MIT License. See [LICENSE](LICENSE).

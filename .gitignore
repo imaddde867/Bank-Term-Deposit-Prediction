@@ -12,23 +12,17 @@ build/
 .tox/
 .coverage
 .pytest_cache/
+post.md
 .mypy_cache/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb
 
 # OS
 .DS_Store
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# IDEs
-.idea/
-.vscode/
-*.sublime-project
-*.sublime-workspace
 
 # Logs and temporary files
 *.log
